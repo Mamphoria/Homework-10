@@ -1,0 +1,33 @@
+@media(max-width: 744px){
+
+    .grid_container{
+
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 6% 22% 34% 19% 19%;
+    
+        grid-template-areas:
+        "HEADER HEADER HEADER HEADER"
+        "SECTION SECTION SECTION SECTION"
+        "NAV MAIN MAIN MAIN"
+        "NAV ARTICLE2 ARTICLE2 ARTICLE"
+        "NAV FOOTER FOOTER FOOTER"
+    }
+}
+
+@media(max-width: 430px){
+
+    .grid_container{
+
+        grid-template-columns: 100%;
+        grid-template-rows: 6% 6% 22% 22% 15% 15% 14%;
+    
+        grid-template-areas:
+        "HEADER"
+        "NAV"
+        "SECTION"
+        "MAIN"
+        "ARTICLE2"
+        "ARTICLE"
+        "FOOTER"
+    }
+}
